@@ -9,16 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@antv/g6": "^4.8.24",
+    "@react-spring/parallax": "^9.7.3",
+    "@react-spring/web": "^9.7.3",
+    "cytoscape": "^3.29.2",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-cxtmenu": "^3.5.0",
+    "cytoscape-popper": "^4.0.0",
+    "d3": "^7.9.0",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "tippy.js": "^6.3.7",
+    "vis-network": "^9.1.9"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@svgr/webpack": "^8.1.0",
+    "@types/cytoscape": "^3.21.4",
+    "@types/cytoscape-cxtmenu": "^3.4.4",
+    "@types/cytoscape-popper": "^2.0.4",
+    "@types/d3": "^7.4.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  },
+  "resolutions": {
+    "d3-interpolate": "2.0.1"
+  },
+  "overrides": {
+    "d3-interpolate": "2.0.1"
   }
 }
